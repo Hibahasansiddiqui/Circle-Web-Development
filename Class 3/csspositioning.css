@@ -1,0 +1,24 @@
+.first-div {
+    position: sticky;
+    background-color: yellow;
+    top: 10px;
+    left: 12px;
+}
+
+.second-div {
+    position: relative;
+    top: 30px;
+    background-color: blue;
+    left: 30px;
+}
+
+.third-div {
+    position: fixed;
+    background-color: green;
+}
+
+.fourth-div {
+    position: absolute;
+    background-color: grey;
+    left: 30px;
+}
