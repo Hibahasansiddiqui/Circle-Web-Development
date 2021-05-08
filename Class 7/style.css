@@ -2,14 +2,15 @@
     display: flex;
     background-color: sandybrown;
     padding: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-container > div {
     width: 200px;
     margin: 10px;
     background-color: silver;
-    text-align: center;
 }
