@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    background-color: sandybrown;
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+.flex-container > div {
+    
+}
