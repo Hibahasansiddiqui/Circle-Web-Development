@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    background-color: azure;
+    padding: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.grid-container > div {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(204, 96, 96);
+}
+
+@media screen and (max-width: 767px) {
+    .first-grid-div {
+        background-color: green;
+    }
+}
+
+/* tablets screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .first-grid-div {
+        background-color: blue;
+    }
+}
+
+
+/* desktop screens */
+@media screen and (min-width: 1024px) {
+    .first-grid-div {
+        background-color: seagreen;
+    }
+}
